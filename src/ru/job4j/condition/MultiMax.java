@@ -5,16 +5,13 @@ public class MultiMax {
         if (first > second) {
             if (first > third) {
                 return first;
-            }
-            else if (first <= third) {
+            } else if (first <= third) {
                 return third;
             }
-        }
-        else if (first <= second) {
+        } else if (first <= second) {
             if (second > third) {
                 return second;
-            }
-            else if (second <= third) {
+            } else if (second <= third) {
                 return third;
             }
         }
